@@ -6,7 +6,7 @@ from discord.ext import commands, tasks
 from discord.ext.commands import Bot
 
 ###client = discord.Client()
-DISCORD_TOKEN="ODA1MTQ3NzAxNjc1MTYzNjg4.YBWqOw.JO5KvQcXn5oht5CCG8eAgNeF-aU"
+DISCORD_TOKEN=environ['Token']
 #client.run(DISCORD_TOKEN)
 bot = Bot(command_prefix="$")
 
